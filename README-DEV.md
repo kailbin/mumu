@@ -26,9 +26,6 @@ $ yarn start
 
 # 部署
 $ GIT_USER=kailbin USE_SSH=false yarn deploy
-
-# 构建静态代码
-$ yarn build
 ```
 
 
