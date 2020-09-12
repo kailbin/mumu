@@ -8,33 +8,13 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: '',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        ..
-      </>
-    ),
+    imageUrl: 'photo/2020-09-11-New-Baby/orange-smile.jpeg',
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    imageUrl: 'photo/2020-09-11-New-Baby/black-foot.jpeg',
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    imageUrl: 'photo/2020-09-11-New-Baby/white-doze.jpeg',
   },
 ];
 

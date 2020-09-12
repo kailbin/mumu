@@ -23,3 +23,25 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.main-wrapper .container main article header h2{
+  font-size: 2rem;
+}
+
+.main-wrapper .container main article header .margin-vert--md{
+  float: left;
+  color: #aaa;
+}
+
+.main-wrapper .container main article header .avatar{ 
+  margin-top: 10px !important;
+  float: right;
+}
+
+.main-wrapper .container main article .markdown{
+  clear: both;
+}
+
+.main-wrapper .container main article footer{
+  display: none;
+}

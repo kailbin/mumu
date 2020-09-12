@@ -31,16 +31,6 @@ $ GIT_USER=kailbin USE_SSH=false yarn deploy
 
 
 
-
-
-## 初始化
-
-```bash
-$ npx @docusaurus/init@next init docusaurus classic
-```
-
-
-
 ## 修改配置 docusaurus.config.js
 
 ```bash
