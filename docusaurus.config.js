@@ -1,44 +1,44 @@
 module.exports = {
-  title: 'Template-Docusaurus',
-  tagline: 'Sub Title Template-Docusaurus',
-  url: 'http://kail.xyz/Template-Docusaurus',
-  baseUrl: '/Template-Docusaurus/',
+  title: '沐云记',
+  tagline: '沐沐的美好生活',
+  url: 'http://blog.kail.xyz/mumu/',
+  baseUrl: '/mumu/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'hello-world-example', // Usually your GitHub org/user name.
-  projectName: 'Template-Docusaurus', // Usually your repo name.
+  organizationName: 'kailbin', // Usually your GitHub org/user name.
+  projectName: 'mumu', // Usually your repo name.
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: true
     },
     navbar: {
-      title: 'Template-Docusaurus',
+      title: '沐云记',
       logo: {
-        alt: 'Template-Docusaurus-alt',
+        alt: '沐云记-alt',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          label: 'Docs',
-          to: 'docs/',
-          activeBasePath: 'docs',
-          position: 'left',
-        },
+        // {
+        //   label: 'Docs',
+        //   to: 'docs/',
+        //   activeBasePath: 'docs',
+        //   position: 'left',
+        // },
         {
           label: 'Blog', 
           to: 'blog',
-          position: 'left'
+          position: 'right'
         },
         {
           label: 'GitHub',
-          href: 'https://github.com/hello-world-example/Template-Docusaurus',
+          href: 'https://github.com/kailbin/mumu',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       // links: [
       //   {
       //     title: 'Docs',
@@ -84,7 +84,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Template-Docusaurus, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
   },
   plugins: [
@@ -103,13 +103,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/hello-world-example/Template-Docusaurus/edit/master/docusaurus/',
+            'https://github.com/kailbin/mumu/edit/master/docusaurus/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/hello-world-example/Template-Docusaurus/edit/master/docusaurus/',
+            'https://github.com/kailbin/mumu/edit/master/docusaurus/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

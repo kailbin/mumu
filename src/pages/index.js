@@ -6,24 +6,13 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-import {Redirect} from '@docusaurus/router';
-
 const features = [
   {
     title: '',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        <dl>
-            <dt>asd</dt>
-            <dd>asdddd</dd>
-            <dd>
-              <dl>
-                <dt>asd</dt>
-                <dd>ddddd</dd>
-              </dl>
-            </dd>
-        </dl>
+        ..
       </>
     ),
   },
@@ -65,8 +54,6 @@ function Feature({imageUrl, title, description}) {
 }
 
 function Home() {
-  return <Redirect to="/Template-Docusaurus/docs/" />;
-
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   
@@ -85,8 +72,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Docs
+              to={useBaseUrl('blog/')}>
+              日常
             </Link>
           </div>
         </div>

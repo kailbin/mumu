@@ -1,0 +1,121 @@
+{
+  "/mumu/-7ab": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---mumu-5-e-9-551"
+  },
+  "/mumu/__docusaurus/debug-af7": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/mumu/__docusaurus/debug/config-6bd": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/mumu/__docusaurus/debug/content-a45": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---mumu-docusaurus-debug-content-246-796"
+  },
+  "/mumu/__docusaurus/debug/metadata-882": {
+    "component": "component---theme-debug-metadata-967-745"
+  },
+  "/mumu/__docusaurus/debug/registry-f0f": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/mumu/__docusaurus/debug/routes-fc6": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/mumu/blog-867": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "items": [
+      {
+        "content": "content---mumu-blogaf-1-7bb"
+      },
+      {
+        "content": "content---mumu-blog-357-bf1"
+      },
+      {
+        "content": "content---mumu-blog-8-e-9-2d5"
+      }
+    ],
+    "metadata": "metadata---mumu-blog-6-cf-56f"
+  },
+  "/mumu/blog/hello-world-d0d": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---mumu-blog-hello-worldd-61-13e"
+  },
+  "/mumu/blog/hola-653": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---mumu-blog-holabdd-083"
+  },
+  "/mumu/blog/tags-f5f": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "tags": "tags---mumu-blog-tags-8-ea-c71"
+  },
+  "/mumu/blog/tags/docusaurus-f25": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---mumu-blogaf-1-7bb"
+      },
+      {
+        "content": "content---mumu-blog-357-bf1"
+      },
+      {
+        "content": "content---mumu-blog-8-e-9-2d5"
+      }
+    ],
+    "metadata": "metadata---mumu-blog-tags-docusaurus-42-e-890"
+  },
+  "/mumu/blog/tags/facebook-d2c": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---mumu-blogaf-1-7bb"
+      }
+    ],
+    "metadata": "metadata---mumu-blog-tags-facebook-126-78f"
+  },
+  "/mumu/blog/tags/hello-c7e": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---mumu-blogaf-1-7bb"
+      },
+      {
+        "content": "content---mumu-blog-357-bf1"
+      }
+    ],
+    "metadata": "metadata---mumu-blog-tags-hello-17-e-e6f"
+  },
+  "/mumu/blog/tags/hola-fd8": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---mumu-blog-8-e-9-2d5"
+      }
+    ],
+    "metadata": "metadata---mumu-blog-tags-hola-3-fe-729"
+  },
+  "/mumu/blog/welcome-fe4": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---mumu-blog-welcome-286-45a"
+  },
+  "/mumu/docs-9fc": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---mumu-docs-935-dfa"
+  },
+  "/mumu/docs/-629": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---mumu-docs-b-2-f-ec9"
+  },
+  "/mumu/docs/asd/doc2-9dc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---mumu-docs-asd-doc-2-e-23-b31"
+  },
+  "/mumu/docs/doc3-39d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---mumu-docs-doc-3616-21f"
+  },
+  "/mumu/docs/mdx-3a7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---mumu-docs-mdxce-3-78b"
+  }
+}
