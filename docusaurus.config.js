@@ -1,8 +1,8 @@
 module.exports = {
   title: '沐云记',
   tagline: '沐沐的美好生活',
-  url: 'http://blog.kail.xyz/mumu/',
-  baseUrl: '/mumu/',
+  url: 'http://mumu.kail.xyz/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'kailbin', // Usually your GitHub org/user name.
