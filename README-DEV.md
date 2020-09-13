@@ -8,7 +8,7 @@
 $ nvm ls-remote --lts
 $ nvm install v10.22.0
 $ nvm use v10.22.0
-$ nvm current 
+$ nvm current
 v10.22.0
 ```
 
@@ -19,7 +19,7 @@ v10.22.0
 
 ```bash
 # 安装依赖
-$ yarn install 
+$ yarn install
 
 # 开启服务
 $ yarn start
