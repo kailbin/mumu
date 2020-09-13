@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.CI_MUMU }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           cat <<EOT >> ~/.ssh/config
           Host github.com
@@ -32,15 +32,11 @@ jobs:
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: git
+          GIT_USER: kailbin
         run: |
           git config --global user.email "ykb553@163.com"
           git config --global user.name "kailbin"
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
           fi
           npx docusaurus deploy
