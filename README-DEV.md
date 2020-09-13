@@ -1,4 +1,17 @@
 
+## 常用命令
+
+```bash
+# 安装依赖
+$ yarn install
+
+# 开启服务
+$ yarn start
+
+# 部署
+$ GIT_USER=kailbin USE_SSH=false yarn deploy
+```
+
 ## 环境准备
 
 - Node.js 10.15.1+
@@ -15,18 +28,7 @@ v10.22.0
 - 详见 [nvm 管理 Node 版本](http://kail.xyz/JavaScript/docs/Npm/NVM/)
 
 
-## 常用命令
 
-```bash
-# 安装依赖
-$ yarn install
-
-# 开启服务
-$ yarn start
-
-# 部署
-$ GIT_USER=kailbin USE_SSH=false yarn deploy
-```
 
 
 
