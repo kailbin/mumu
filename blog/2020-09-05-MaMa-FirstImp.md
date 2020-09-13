@@ -1,6 +1,6 @@
 ---
-slug: MaMa-Readme
-title: MaMa 必读
+slug: 2020-09-05-MaMa-FirstImp
+title: 第一次见面
 image: 
 tags: []
 
@@ -12,6 +12,8 @@ author_image_url: https://avatars1.githubusercontent.com/u/5621083?s=80&v=4
 ---
 
 <!--truncate-->
+
+测试
 
 1. copy 该文件（`./blog/2020-09-04-MaMa-Readme.md`）
 2. 修改 slug（id） 和 title（文章名）
