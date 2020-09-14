@@ -17,6 +17,9 @@ author_image_url: https://avatars1.githubusercontent.com/u/5621083?s=80&v=4
 2. 修改 slug（id） 和 title（文章名）
 
 ``` bash
+# 拉取最新内容
+$ git pull
+
 # 开启服务
 $ yarn start
 
